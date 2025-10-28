@@ -364,7 +364,7 @@ function safeValue(valor, defaultValue) {
 
 
 function testeGB(){
-	return "FUNCIONOU BEM DMS DA CONTA SÓ!!!!!!!!!!!!"
+	return "FUNCIONOU BEM DMS DA CONTA SO!!"
 }
 
 
@@ -458,5 +458,6 @@ function testeGB(){
         }
     })();
 }*/
+
 
 
