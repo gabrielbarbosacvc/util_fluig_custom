@@ -363,7 +363,9 @@ function safeValue(valor, defaultValue) {
 }
 
 
-
+function testeGB(){
+	return "FUNCIONOU BEM DMS DA CONTA SÓ!!!!!!!!!!!!"
+}
 
 
 
@@ -456,4 +458,5 @@ function safeValue(valor, defaultValue) {
         }
     })();
 }*/
+
 
