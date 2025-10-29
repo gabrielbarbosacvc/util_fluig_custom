@@ -364,7 +364,7 @@ function safeValue(valor, defaultValue) {
 
 
 function testeAlteracao(){
-	return "DEU CERTO!!"
+	return "DEU CERTO MAIS UMA VEZ!!"
 }
 
 
@@ -457,6 +457,7 @@ function testeAlteracao(){
         }
     })();
 }*/
+
 
 
 
