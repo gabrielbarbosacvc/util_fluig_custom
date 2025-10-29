@@ -366,7 +366,6 @@ function safeValue(valor, defaultValue) {
 function testeAlteracao(){
 	return "DEU CERTO!!"
 }
-window.testeAlteracao = testeAlteracao;
 
 
 
@@ -458,6 +457,7 @@ window.testeAlteracao = testeAlteracao;
         }
     })();
 }*/
+
 
 
 
