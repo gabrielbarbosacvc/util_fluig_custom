@@ -421,7 +421,10 @@ var utilFFC = (function () {
         return defaultValue;
     }
 
+    function teste(){return "SUCESSO!!!!"}
+    
     return {
+        teste: teste,
         loadingScreen: loadingScreen,
         hiddenMovementButtons: hiddenMovementButtons,
         deleteTable: deleteTable,
@@ -440,5 +443,6 @@ var utilFFC = (function () {
         safeValue: safeValue
     };
 })();
+
 
 
