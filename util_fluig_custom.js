@@ -364,7 +364,7 @@ function safeValue(valor, defaultValue) {
 
 
 function testeAlteracao(){
-	return "DEU CERTO MAIS UMA VEZ!!"
+	return "TESTE DE TEMPO DE MUDANÇA!!"
 }
 
 
@@ -377,7 +377,7 @@ function testeAlteracao(){
 /*====================================================================================================================================================*/
 /*=========================================================== FUNÇÕES ANTIGAS ========================================================================*/
 /*====================================================================================================================================================*/
-/**
+/**		
  * Exibe uma tela de carregamento enquanto uma função é executada.
  *
  * @param {Function} func - A função que será executada durante a exibição da tela de carregamento.
@@ -457,6 +457,7 @@ function testeAlteracao(){
         }
     })();
 }*/
+
 
 
 
