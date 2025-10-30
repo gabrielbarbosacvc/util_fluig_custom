@@ -420,4 +420,24 @@ var utilFFC = (function () {
 
         return defaultValue;
     }
+
+    return {
+        loadingScreen: loadingScreen,
+        hiddenMovementButtons: hiddenMovementButtons,
+        deleteTable: deleteTable,
+        formatarValor: formatarValor,
+        disableMovementButtons: disableMovementButtons,
+        addOptions: addOptions,
+        initZoom: initZoom,
+        ativaMascaraValor: ativaMascaraValor,
+        ativarCaixa_alta: ativarCaixa_alta,
+        formatarData: formatarData,
+        exibirAlerta: exibirAlerta,
+        exibirToast: exibirToast,
+        buttonsCloseModal: buttonsCloseModal,
+        formatarCPF: formatarCPF,
+        formatarCNPJ: formatarCNPJ,
+        safeValue: safeValue
+    };
 })();
+
