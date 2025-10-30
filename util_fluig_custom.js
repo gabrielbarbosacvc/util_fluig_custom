@@ -30,41 +30,41 @@ var utilFFC = (function () {
 
     function loadingScreen(textMessage){
 
-    if (!textMessage) textMessage = 'Carregando dados, por favor aguarde...'; // Define uma mensagem padrão, se necessário.
-    var loadingScreen = FLUIGC.loading(window, {
-            textMessage: textMessage,
-            title: null,
-            css: {
-                padding: 0,
-                margin: 0,
-                width: '30%',
-                top: '40%',
-                left: '35%',
-                textAlign: 'center',
-                color: '#000',
-                border: '1px solid #aaa',
-                backgroundColor: '#fff',
-                cursor: 'wait',
-                opacity: 1,
-            },
-            overlayCSS: {
-                backgroundColor: '#000',
-                opacity: 0.6,
-                cursor: 'wait',
-            },
-            cursorReset: 'default',
-            baseZ: 1000,
-            centerX: true,
-            centerY: true,
-            bindEvents: true,
-            fadeIn: 200,
-            fadeOut: 400,
-            timeout: 0,
-            showOverlay: true,
-            onBlock: null,
-            onUnblock: null,
-            ignoreIfBlocked: false,
-        });
+        if (!textMessage) textMessage = 'Carregando dados, por favor aguarde...'; // Define uma mensagem padrão, se necessário.
+        var loadingScreen = FLUIGC.loading(window, {
+                textMessage: textMessage,
+                title: null,
+                css: {
+                    padding: 0,
+                    margin: 0,
+                    width: '30%',
+                    top: '40%',
+                    left: '35%',
+                    textAlign: 'center',
+                    color: '#000',
+                    border: '1px solid #aaa',
+                    backgroundColor: '#fff',
+                    cursor: 'wait',
+                    opacity: 1,
+                },
+                overlayCSS: {
+                    backgroundColor: '#000',
+                    opacity: 0.6,
+                    cursor: 'wait',
+                },
+                cursorReset: 'default',
+                baseZ: 1000,
+                centerX: true,
+                centerY: true,
+                bindEvents: true,
+                fadeIn: 200,
+                fadeOut: 400,
+                timeout: 0,
+                showOverlay: true,
+                onBlock: null,
+                onUnblock: null,
+                ignoreIfBlocked: false,
+            });
         return loadingScreen;
     }
 
@@ -440,4 +440,5 @@ var utilFFC = (function () {
         safeValue: safeValue
     };
 })();
+
 
