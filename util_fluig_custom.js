@@ -421,7 +421,7 @@ var utilFFC = (function () {
         return defaultValue;
     }
 
-    function teste(){return "SUCESSO!!!!"}
+    function teste(){return "ALTERADO COM SUCESSO!!!!"}
     
     return {
         teste: teste,
